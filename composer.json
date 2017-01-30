@@ -1,0 +1,25 @@
+{
+  "name": "fafiebig/faf-optim",
+  "description": "Wordpress Plugin for Image Optimization based on ImageOptim and OptiPNG",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "optimization",
+    "imageoptim",
+    "optipng"
+  ],
+  "homepage": "https://github.com/fafiebig/faf-optim",
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "authors": [
+    {
+      "name": "F.A. Fiebig",
+      "email": "fafworx@gmail.com",
+      "homepage": "http://fafworx.com"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.3.2",
+    "composer/installers": "v1.2.0"
+  }
+}
