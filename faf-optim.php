@@ -117,15 +117,19 @@ function optionsPage()
                     var images = [<?php echo implode(',', $ids); ?>];
 
                     jQuery.each(images, function(ix, val){
-                        var data = {
-                            'action': 'optimize',
-                            'image': val
-                        };
 
-                        jQuery.post(ajaxurl, data, function (response) {
-                            jQuery('#report').append(response);
-                            jQuery('#counter').html((ix+1) + '/' + images.length + 'optimiert');
-                        });
+                        setTimeout( function(){
+                            var data = {
+                                'action': 'optimize',
+                                'image': val
+                            };
+
+                            jQuery.post(ajaxurl, data, function (response) {
+                                jQuery('#report').append(response);
+                                jQuery('#counter').html((ix+1) + '/' + images.length + 'optimiert');
+                            })
+                        }, 500);
+
                     });
                 });
             });
