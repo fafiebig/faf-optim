@@ -1,7 +1,7 @@
 # faf-optim
 
 Wordpress Plugin for Image Optimization.
-You have to install ImageOptim and OptiPNG on serverside.
+You have to install JPEGOptim and OptiPNG on serverside.
 
 
 # Installation
