@@ -1,3 +1,6 @@
+# DEPRECATED - DO NOT USE IT ANY LONGER!
+
+
 # faf-optim
 
 Wordpress Plugin for Image Optimization.
